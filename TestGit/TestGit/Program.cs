@@ -24,7 +24,8 @@ namespace TestGit
             }
             return input*GiaiThua(input-1);
         }  
-        
+        //ghi chu merge
+        //Ham tinh fibonanci
         public static int Fibonanci(int position)
         {
             if (position==1)
