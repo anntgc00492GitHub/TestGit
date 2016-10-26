@@ -15,6 +15,7 @@ namespace TestGit
 
     static class Function
     {
+        //HamTinhGiaThua
         public static int GiaiThua(int input)
         {
             if (input==1)
