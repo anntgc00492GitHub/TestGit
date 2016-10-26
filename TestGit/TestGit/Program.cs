@@ -22,6 +22,19 @@ namespace TestGit
                 return 1;
             }
             return input*GiaiThua(input-1);
-        }        
+        }  
+        
+        public static int Fibonanci(int position)
+        {
+            if (position==1)
+            {
+                return 1;
+            }
+            if (position == 0)
+            {
+                return 0;
+            }
+            return Fibonanci(position - 2) + Fibonanci(position);
+        }      
     } 
 }
