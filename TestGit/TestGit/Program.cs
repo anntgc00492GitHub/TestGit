@@ -12,4 +12,16 @@ namespace TestGit
         {
         }
     }
+
+    static class Function
+    {
+        public static int GiaiThua(int input)
+        {
+            if (input==1)
+            {
+                return 1;
+            }
+            return input*GiaiThua(input-1);
+        }        
+    } 
 }
